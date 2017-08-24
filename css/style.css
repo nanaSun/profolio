@@ -1,0 +1,11 @@
+*{ padding: 0px;margin:0px; }
+header,section,article,footer{ width: 100%; }
+img{ max-width: 100%; }
+.intro{ text-align: right; padding: 10px; }
+.gallery{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
