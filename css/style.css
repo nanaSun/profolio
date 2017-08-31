@@ -1,11 +1,35 @@
-*{ padding: 0px;margin:0px; }
-header,section,article,footer{ width: 100%; }
-img{ max-width: 100%; }
-.intro{ text-align: right; padding: 10px; }
+*{ 
+	padding: 0px;
+	margin:0px;
+}
+body{
+	margin:0 2%;
+}
+header,section,article,footer{ 
+	width: 100%; 
+}
+img{ 
+	max-width: 100%; 
+}
+header{ 
+	border-bottom: 3px solid #eee;
+}
+.intro{ 
+	text-align: right;
+	padding: 10px; 
+}
 .gallery{
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
+	margin:0 -1%;
+    width: auto;
+}
+.gallery div{
+	margin:0 1%;
+}
+.gallery p{	
+	text-align: center; 
 }
